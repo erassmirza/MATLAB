@@ -1,4 +1,5 @@
 clc                                                 % clear Command Window
+
 %%                              CALCULATIONS
 
 % (), exp, * and /, + and -                            Order of Precedence
@@ -33,3 +34,27 @@ format compact                                    % remove uncessary lines
 format loose                                            % adds blank lines
 290/7
 
+%%                          BUILT-IN FUNCTIONS
+
+% Elementry math funtions
+sqrt(81)                                             % perfect square root
+nthroot(80,5)               % first num value and second is what root want
+exp(5)                                                      % exponent e^5
+abs(-24)                             % absolute value always gives +ve ans
+log(1000)                                                    % natural log
+log10(1000)                                                  % base 10 log
+factorial(5)                                             % factorial value
+
+% Trigonometric math functions
+sin(pi/6)                                           % when angle in radian
+sind(pi/6)                                          % when angle in degree
+cos(pi/6)                                           % when angle in radian
+cosd(pi/6)                                          % when angle in degree
+tan(pi/6)                                           % when angle in radian
+tand(pi/6)                                          % when angle in degree
+cot(pi/6)                                           % when angle in radian
+cotd(pi/6)                                          % when angle in degree
+% asin, acos, atan, acot (inverse)                  % when angle in radian
+% asind, acosd, atand, acotd (inverse)              % when angle in degree
+
+% Rounding Funtions
