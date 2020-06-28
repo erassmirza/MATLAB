@@ -54,7 +54,43 @@ tan(pi/6)                                           % when angle in radian
 tand(pi/6)                                          % when angle in degree
 cot(pi/6)                                           % when angle in radian
 cotd(pi/6)                                          % when angle in degree
-% asin, acos, atan, acot (inverse)                  % when angle in radian
-% asind, acosd, atand, acotd (inverse)              % when angle in degree
+% asin(x), acos(x), atan(x), acot(x) (inverse)      % when angle in radian
+% asind(x), acosd(x), atand(x), acotd(x) (inverse)  % when angle in degree
+% sinh(x), cosh(x), tanh(x), coth(x) (hyperbolic)   % when angle in radian
 
 % Rounding Funtions
+round(17/5)                                        % round nearest integer
+fix(13/5)                                             % round towards zero
+ceil(11/5)                                        % round towards infinity
+floor(-9/4)                                   % round towards -ve infinity
+rem(13,5)                                           % gives reminder value
+sign(5)                          % x>0 gives 1, x<0 gives -1 & x=0 gives 0
+
+%%                          Assignment Operator
+
+x = 15                                  % num 15 is assigned to variable x
+y = 12                                  % num 12 is assigned to variable y
+z = x + y                       % sum of x and y is assigned to variable z
+a = 4, b = 6;     % ; compress answers, only show value of a in cmd window
+a = 7                                 % now 7 is replaced older value of a
+
+%%                  PREDEFINED VARIABLES AND KEYWORDS
+
+% Keywords :-
+
+% break, case, catch, classdef, continue, else, elseif, end, for, function,
+% global, if, otherwise, parfor, persistent, return, spmd, switch, try, 
+% while
+
+% Variables :-
+
+% ans, pi, eps, inf, i, j, NaN
+
+% Above all keywords and variables not using as variable name
+
+%%                              OTHER COMMANDS
+
+who                                        % list of variables from memory
+whos                        % list of variables with more info from memory
+clear x y z                                   % clear values of x, y and z
+clear                                                % clear all variables
